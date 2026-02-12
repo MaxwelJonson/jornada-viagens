@@ -27,6 +27,10 @@ input[type="checkbox"]:checked ~ nav{
     background-color: var(--background-tertiary-color);
 }
 
+.list-links-menu{
+    list-style: none;
+}
+
 .list-links-menu li a{
     text-decoration: none;
     color: var(--text-secondary-color);
