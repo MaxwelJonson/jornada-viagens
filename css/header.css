@@ -20,6 +20,16 @@ header{
 
 input[type="checkbox"]:checked ~ nav{
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
+}
+
+.list-links-menu li a{
+    text-decoration: none;
+    color: var(--text-secondary-color);
 }
 
 nav{
