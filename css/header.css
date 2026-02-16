@@ -31,6 +31,10 @@ input[type="checkbox"]:checked ~ nav{
     list-style: none;
 }
 
+.list-links-menu li{
+    margin: 16px 0;
+}
+
 .list-links-menu li a{
     text-decoration: none;
     color: var(--text-secondary-color);
