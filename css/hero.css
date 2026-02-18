@@ -4,6 +4,15 @@
     background: url(../img/hero-mobile.jpg) no-repeat center center/cover;  
 }
 
+h2{
+    margin: 0;
+    padding: 88px 24px;
+    font-size: 20px;
+    font-weight: var(--text-font-weight);
+    line-height: 1.5;
+    text-align: center;
+}
+
 /* MEDIDAS DA IMAGEM PARA TABLETS */
 @media screen and (min-width: 768px) {
     .hero-img{
