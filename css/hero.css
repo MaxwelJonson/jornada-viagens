@@ -13,3 +13,11 @@
         background-size: cover;
     }
 }
+
+/* MEDIDAS DA IMAGEM PARA DESKTOPS */
+@media screen and (min-width: 1440px) {
+    .hero-img{
+        background: url(../img/hero-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+}
