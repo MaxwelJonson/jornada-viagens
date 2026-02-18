@@ -1,6 +1,15 @@
 .hero-img{
     height: 400px;
     width: 100%;
-    background: url(../img/hero-img.jpg) no-repeat;
+    background: url(../img/hero-mobile.jpg) no-repeat;
     background-size: cover;
+}
+
+/* MEDIDAS DA IMAGEM PARA TABLETS */
+@media screen and (min-width: 768px) {
+    .hero-img{
+        height: 620px;
+        background: url(../img/hero-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
 }
