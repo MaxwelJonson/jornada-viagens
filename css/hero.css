@@ -19,11 +19,25 @@ h2{
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat center center/cover;
     }
+    h2{
+        padding: 88px 60px;
+        font-size: 32px;
+    }
 }
 
 /* MEDIDAS DA IMAGEM PARA DESKTOPS */
 @media screen and (min-width: 1440px) {
     .hero-img{
         background: url(../img/hero-desktop.jpg) no-repeat center center/cover;
+    }
+    h2{
+        padding: 104px 120px;
+    }
+}
+
+/* MEDIDAS DA IMAGEM PARA DESKTOPS MAIORES */
+@media screen and (min-width: 1940px) {
+    h2{
+        padding: 104px 160px;
     }
 }
