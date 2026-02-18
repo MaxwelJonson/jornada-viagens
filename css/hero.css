@@ -1,23 +1,20 @@
 .hero-img{
     height: 400px;
     width: 100%;
-    background: url(../img/hero-mobile.jpg) no-repeat;
-    background-size: cover;
+    background: url(../img/hero-mobile.jpg) no-repeat center center/cover;  
 }
 
 /* MEDIDAS DA IMAGEM PARA TABLETS */
 @media screen and (min-width: 768px) {
     .hero-img{
         height: 620px;
-        background: url(../img/hero-tablet.jpg) no-repeat;
-        background-size: cover;
+        background: url(../img/hero-tablet.jpg) no-repeat center center/cover;
     }
 }
 
 /* MEDIDAS DA IMAGEM PARA DESKTOPS */
 @media screen and (min-width: 1440px) {
     .hero-img{
-        background: url(../img/hero-desktop.jpg) no-repeat;
-        background-size: cover;
+        background: url(../img/hero-desktop.jpg) no-repeat center center/cover;
     }
 }
