@@ -1,3 +1,11 @@
+.category-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
 .cat-card{
     display: inline-block;
     width: 312px;
@@ -17,10 +25,43 @@
     margin: 41px auto;
 }
 
+.pacotes-internacionais .icon{
+    background: url(../img/icon-pacotes-internacionais.png) no-repeat center;
+    margin: 24px auto;
+}
+
+.transfer .icon{
+    background: url(../img/icon-transfer.png) no-repeat center;
+}
+
+.seguro-viagem .icon{
+    background: url(../img/icon-seguro-viagem.png) no-repeat center;
+}
+
 .cat-card h3{
     margin: 0;
     font-size: 28px;
     font-weight: var(--title-font-weight);
     color: var(--text-primary-color);
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .category-cards{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .category-cards{
+        width: 980px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .category-cards{
+        width: 1320px;
+    }
 }
