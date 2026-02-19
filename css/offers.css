@@ -1,3 +1,11 @@
+.offer-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
 .card{
     width: 312px;
     height: 288px;
@@ -52,10 +60,18 @@
     margin-top: 24px;
 }
 
+/* TABLETS */
+@media screen and (min-width: 768px) {
+    .offer-cards{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 /* DESKTOPS */
 @media screen and (min-width: 1024px) {
     .card{
-        width: 588px;
+        width: 450px;
         height: 308px;
     }
 
@@ -65,5 +81,19 @@
 
     .card span{
         font-size: 40px;
+    }
+}
+
+/* DESKTOPS MAIORES */
+@media screen and (min-width: 1440px) {
+    .card{
+        width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .offer-cards{
+        width: 1200px;
+        margin: 0 auto;
     }
 }
