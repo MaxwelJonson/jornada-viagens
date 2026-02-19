@@ -1,0 +1,26 @@
+.cat-card{
+    display: inline-block;
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secondary-color);
+    border-radius: 8px;
+}
+
+.cat-card a{
+    text-decoration: none;
+}
+
+.icon{
+    background: url(../img/icon-pacotes-nacionais.png) no-repeat center;
+    width: 80px;
+    height: 80px;
+    margin: 41px auto;
+}
+
+.cat-card h3{
+    margin: 0;
+    font-size: 28px;
+    font-weight: var(--title-font-weight);
+    color: var(--text-primary-color);
+    text-align: center;
+}
