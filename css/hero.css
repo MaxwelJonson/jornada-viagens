@@ -4,7 +4,7 @@
     background: url(../img/hero-mobile.jpg) no-repeat center center/cover;  
 }
 
-h2{
+.hero h2{
     margin: 0;
     padding: 88px 24px;
     font-size: 20px;
