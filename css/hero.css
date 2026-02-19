@@ -4,7 +4,7 @@
     background: url(../img/hero-mobile.jpg) no-repeat center center/cover;  
 }
 
-h2{
+.hero h2{
     margin: 0;
     padding: 88px 24px;
     font-size: 20px;
@@ -19,7 +19,7 @@ h2{
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat center center/cover;
     }
-    h2{
+    .hero h2{
         padding: 88px 60px;
         font-size: 32px;
     }
@@ -30,14 +30,14 @@ h2{
     .hero-img{
         background: url(../img/hero-desktop.jpg) no-repeat center center/cover;
     }
-    h2{
+    .hero h2{
         padding: 104px 120px;
     }
 }
 
 /* MEDIDAS DA IMAGEM PARA DESKTOPS MAIORES */
 @media screen and (min-width: 1940px) {
-    h2{
+    .hero h2{
         padding: 104px 160px;
     }
 }
