@@ -51,3 +51,34 @@
 .destination-items a{
     width: 312px;
 }
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .destinations .section-title{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .destination-items .item .img-item{
+        width: 648px;
+        height: 452px;
+    }
+
+    .img-item.tokyo{
+        background: url(../img/tokyo-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .img-item.osaka{
+        background: url(../img/osaka-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .destination-items p{
+        width: 648px;
+    }
+
+    .destination-items a{
+        width: 280px;
+    }
+}
