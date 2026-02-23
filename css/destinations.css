@@ -82,3 +82,40 @@
         width: 280px;
     }
 }
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .destination-items{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .destination-items .item .img-item{
+        width: 450px;
+    }
+
+    .destination-items p{
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destination-items .item .img-item{
+        width: 588px;
+    }
+
+    .destination-items p{
+        width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .destination-items .item .img-item{
+        width: 640px;
+    }
+
+    .destination-items p{
+        width: 640px;
+        height: 120px;
+    }
+}
