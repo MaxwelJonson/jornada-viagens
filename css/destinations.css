@@ -1,12 +1,15 @@
+.destinations .section-title{
+    width: 280px;
+    margin: 0 auto;
+}
+
 .destination-items{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    gap: 24px;
+    gap: 40px;
     margin-bottom: 88px;
-    width: 312px;
-    height: 360px;
 }
 
 /* RESET DO HEADER */
@@ -26,6 +29,11 @@
     background-size: cover;
 }
 
+.img-item.osaka{
+    background: url(../img/osaka-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .destination-items h4{
     font-size: 28px;
     font-weight: var(--title-font-weight);
@@ -37,4 +45,9 @@
     font-weight: var(--text-font-weight);
     line-height: 1.5;
     margin-bottom: 24px;
+    width: 312px;
+}
+
+.destination-items a{
+    width: 312px;
 }
