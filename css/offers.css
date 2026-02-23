@@ -38,6 +38,8 @@
     background-size: cover;
 }
 
+
+/* RESET DO HEADER */
 .offer-cards .card header{
     display: block;
     padding: 0;
@@ -95,6 +97,6 @@
 @media screen and (min-width: 1920px) {
     .offer-cards{
         width: 1200px;
-        margin: 0 auto;
+        margin: 0 auto 88px;
     }
 }

@@ -1,0 +1,6 @@
+/* RESET DO HEADER */
+.destinations .item header{
+    display: block;
+    padding: 0;
+    background-color: transparent;
+}
