@@ -38,14 +38,6 @@
     background-size: cover;
 }
 
-
-/* RESET DO HEADER */
-.offer-cards .card header{
-    display: block;
-    padding: 0;
-    background-color: transparent;
-}
-
 .offer-cards .card p{
     font-size: 20px;
     font-weight: var(--text-font-weight);
@@ -74,7 +66,7 @@
 /* DESKTOPS */
 @media screen and (min-width: 1024px) {
     .offer-cards .card{
-        width: 450px;
+        width: 430px;
         height: 308px;
     }
 
@@ -95,8 +87,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-    .offer-cards{
-        width: 1200px;
-        margin: 0 auto 88px;
+    .offer-cards .card{
+        width: 738px;
     }
 }

@@ -1,4 +1,4 @@
-header{
+.main-header{
     background-color: var(--background-tertiary-color);
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@ header{
     margin-top: 24px;
 }
 
-input[type="checkbox"]:checked ~ nav{
+.main-header input[type="checkbox"]:checked ~ nav{
     display: block;
     position: absolute;
     top: 100%;
@@ -31,7 +31,7 @@ input[type="checkbox"]:checked ~ nav{
     background-color: var(--background-tertiary-color);
 }
 
-.navigation-menu nav{
+.navigation-menu ul{
     list-style: none;
 }
 
@@ -46,7 +46,7 @@ input[type="checkbox"]:checked ~ nav{
     font-size: 24px;
 }
 
-nav{
+.main-header nav{
     display: none;
 }
 
@@ -76,7 +76,7 @@ nav{
 
 /* ESTILO DE EXIBIÇÃO PARA DESKTOP */
 @media screen and (min-width: 1440px) {
-    header{
+    .main-header{
         padding: 38px 120px;
     }
 
@@ -100,7 +100,7 @@ nav{
 
 /* ESTILO DE EXIBIÇÃO PARA DESKTOP MAIORES */
 @media screen and (min-width: 1920px) {
-    header{
+    .main-header{
         padding: 38px 160px;
     }
 }

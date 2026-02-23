@@ -1,6 +1,5 @@
 .destinations .section-title{
     width: 280px;
-    margin: 0 auto;
 }
 
 .destination-items{
@@ -10,13 +9,6 @@
     align-items: center;
     gap: 40px;
     margin-bottom: 88px;
-}
-
-/* RESET DO HEADER */
-.destinations .item header{
-    display: block;
-    padding: 0;
-    background-color: transparent;
 }
 
 .destination-items .item .img-item{
@@ -56,7 +48,6 @@
 @media screen and (min-width: 768px) {
     .destinations .section-title{
         width: 100%;
-        margin: 0 auto;
     }
 
     .destination-items .item .img-item{
@@ -91,31 +82,31 @@
     }
 
     .destination-items .item .img-item{
-        width: 450px;
+        width: 430px;
     }
 
     .destination-items p{
-        width: 450px;
+        width: 430px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .destination-items .item .img-item{
-        width: 588px;
+        width: 580px;
     }
 
     .destination-items p{
-        width: 588px;
+        width: 580px;
     }
 }
 
 @media screen and (min-width: 1920px) {
     .destination-items .item .img-item{
-        width: 640px;
+        width: 730px;
     }
 
     .destination-items p{
-        width: 640px;
+        width: 730px;
         height: 120px;
     }
 }
