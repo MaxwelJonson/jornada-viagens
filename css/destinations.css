@@ -1,6 +1,40 @@
+.destination-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 88px;
+    width: 312px;
+    height: 360px;
+}
+
 /* RESET DO HEADER */
 .destinations .item header{
     display: block;
     padding: 0;
     background-color: transparent;
+}
+
+.destination-items .item .img-item{
+    width: 312px;
+    height: 360px;
+}
+
+.img-item.tokyo{
+    background: url(../img/tokyo-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.destination-items h4{
+    font-size: 28px;
+    font-weight: var(--title-font-weight);
+    margin: 24px 0;
+}
+
+.destination-items p{
+    font-size: 20px;
+    font-weight: var(--text-font-weight);
+    line-height: 1.5;
+    margin-bottom: 24px;
 }

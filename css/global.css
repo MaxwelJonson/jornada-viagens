@@ -65,6 +65,7 @@ body{
     color: var(--text-secondary-color);
     font-weight: var(--title-font-weight);
     font-size: 20px;
+    text-align: center;
 }
 
 /* TABLETS */
