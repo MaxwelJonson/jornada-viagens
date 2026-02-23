@@ -1,0 +1,112 @@
+.destinations .section-title{
+    width: 280px;
+}
+
+.destination-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 88px;
+}
+
+.destination-items .item .img-item{
+    width: 312px;
+    height: 360px;
+}
+
+.img-item.tokyo{
+    background: url(../img/tokyo-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.img-item.osaka{
+    background: url(../img/osaka-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.destination-items h4{
+    font-size: 28px;
+    font-weight: var(--title-font-weight);
+    margin: 24px 0;
+}
+
+.destination-items p{
+    font-size: 20px;
+    font-weight: var(--text-font-weight);
+    line-height: 1.5;
+    margin-bottom: 24px;
+    width: 312px;
+}
+
+.destination-items a{
+    width: 312px;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .destinations .section-title{
+        width: 100%;
+    }
+
+    .destination-items .item .img-item{
+        width: 648px;
+        height: 452px;
+    }
+
+    .img-item.tokyo{
+        background: url(../img/tokyo-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .img-item.osaka{
+        background: url(../img/osaka-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .destination-items p{
+        width: 648px;
+    }
+
+    .destination-items a{
+        width: 280px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .destination-items{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .destination-items .item .img-item{
+        width: 430px;
+    }
+
+    .destination-items p{
+        width: 430px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destination-items .item .img-item{
+        width: 580px;
+    }
+
+    .destination-items p{
+        width: 580px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .destination-items .item .img-item{
+        width: 730px;
+    }
+
+    .destination-items p{
+        width: 730px;
+        height: 120px;
+    }
+}
