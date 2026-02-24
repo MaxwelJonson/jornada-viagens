@@ -33,6 +33,7 @@
     background-size: cover;
 }
 
+/* TABLET */
 @media screen and (min-width: 768px) {
     .image-content .image{
         width: 312px;
@@ -57,5 +58,65 @@
     .image-content .people{
         background: url(../img/image-people-tablet-desk.jpg) no-repeat center;
         background-size: cover;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .image-content .image{
+        width: 438px;
+    }
+
+    .image-content .large{
+        width: 900px;
+        height: 254px;
+    }
+}
+
+/* DESKTOP MAIORES */
+@media screen and (min-width: 1440px){
+    .payments .content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .text-content{
+        grid-column: span 1;
+    }
+
+    .text-content h3{
+        margin: 0;
+        width: 285px;
+    }
+
+    .text-content p{
+        margin-top: 24px;
+        width: 360px;
+    }
+
+    .image-content{
+        margin-top: 0;
+        grid-column: span 2;
+    }
+
+    .image-content .image{
+        width: 384px;
+    }
+
+    .image-content .large{
+        width: 790px;
+        height: 182px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .image-content .image{
+        width: 484px;
+    }
+
+    .image-content .large{
+        width: 990px;
+        height: 252px;
     }
 }
