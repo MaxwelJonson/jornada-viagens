@@ -38,14 +38,7 @@
     background-size: cover;
 }
 
-.offer-cards .card p{
-    font-size: 20px;
-    font-weight: var(--text-font-weight);
-}
-
 .offer-cards .card h3{
-    font-size: 40px;
-    font-weight: var(--title-font-weight);
     margin: 8px auto 24px;
 }
 

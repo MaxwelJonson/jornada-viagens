@@ -1,0 +1,81 @@
+.payments .content .image-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+}
+
+.payments .content .image-content .large{
+    grid-column: span 2;
+}
+
+.payments .content .image-content .first{
+    background: url(../img/payments-first-image-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.payments .content .image-content .second{
+    background: url(../img/payments-second-image-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.payments .content .image-content .third{
+    background: url(../img/payments-third-image-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .payments .content .image-content .first{
+        background: url(../img/payments-first-image-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .payments .content .image-content .second{
+        background: url(../img/payments-second-image-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .payments .content .image-content .third{
+        background: url(../img/payments-third-image-tablet-desk.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .payments .content .image-content{
+        height: 560px;
+    }
+}
+
+/* DESKTOP MAIORES */
+@media screen and (min-width: 1440px){
+    .payments .content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payments .content .text-content h3{
+        margin: 0;
+        width: 285px;
+    }
+
+    .payments .content .text-content p{
+        margin-top: 24px;
+        width: 360px;
+    }
+
+    .payments .content .image-content{
+        margin: 0;
+        width: 790px;
+        height: 460px;
+    } 
+}
+
+@media screen and (min-width: 1920px){
+    .payments .content .text-content p{
+        width: 560px;
+    }
+}
