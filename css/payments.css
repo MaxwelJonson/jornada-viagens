@@ -1,122 +1,81 @@
-.image-content{
+.payments .content .image-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 24px;
+    height: 460px;
     margin-top: 24px;
 }
 
-.image-content .image{
-    width: 144px;
-    height: 254px;
-    grid-column: span 1;
-}
-
-.image-content .large{
-    width: 312px;
-    height: 182px;
+.payments .content .image-content .large{
     grid-column: span 2;
 }
 
-.image-content .bag{
-    background: url(../img/image-bag-mobile.jpg) no-repeat center;
+.payments .content .image-content .first{
+    background: url(../img/payments-first-image-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
-.image-content .passaport{
-    background: url(../img/image-passaport-mobile.jpg) no-repeat center;
+.payments .content .image-content .second{
+    background: url(../img/payments-second-image-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
-.image-content .people{
-    background: url(../img/image-people-mobile.jpg) no-repeat center;
+.payments .content .image-content .third{
+    background: url(../img/payments-third-image-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .image-content .image{
-        width: 312px;
-        height: 254px;
-    }
-
-    .image-content .large{
-        width: 648px;
-        height: 182px;
-    }
-
-    .image-content .bag{
-        background: url(../img/image-bag-tablet-desk.jpg) no-repeat center;
+    .payments .content .image-content .first{
+        background: url(../img/payments-first-image-tablet-desk.jpg) no-repeat center;
         background-size: cover;
     }
 
-    .image-content .passaport{
-        background: url(../img/image-passaport-tablet-desk.jpg) no-repeat center;
+    .payments .content .image-content .second{
+        background: url(../img/payments-second-image-tablet-desk.jpg) no-repeat center;
         background-size: cover;
     }
 
-    .image-content .people{
-        background: url(../img/image-people-tablet-desk.jpg) no-repeat center;
+    .payments .content .image-content .third{
+        background: url(../img/payments-third-image-tablet-desk.jpg) no-repeat center;
         background-size: cover;
     }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
-    .image-content .image{
-        width: 438px;
-    }
-
-    .image-content .large{
-        width: 900px;
-        height: 254px;
+    .payments .content .image-content{
+        height: 560px;
     }
 }
 
 /* DESKTOP MAIORES */
 @media screen and (min-width: 1440px){
     .payments .content{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
+        display: flex;
+        justify-content: space-between;
     }
 
-    .text-content{
-        grid-column: span 1;
-    }
-
-    .text-content h3{
+    .payments .content .text-content h3{
         margin: 0;
         width: 285px;
     }
 
-    .text-content p{
+    .payments .content .text-content p{
         margin-top: 24px;
         width: 360px;
     }
 
-    .image-content{
-        margin-top: 0;
-        grid-column: span 2;
-    }
-
-    .image-content .image{
-        width: 384px;
-    }
-
-    .image-content .large{
+    .payments .content .image-content{
+        margin: 0;
         width: 790px;
-        height: 182px;
-    }
+        height: 460px;
+    } 
 }
 
 @media screen and (min-width: 1920px){
-    .image-content .image{
-        width: 484px;
-    }
-
-    .image-content .large{
-        width: 990px;
-        height: 252px;
+    .payments .content .text-content p{
+        width: 560px;
     }
 }
