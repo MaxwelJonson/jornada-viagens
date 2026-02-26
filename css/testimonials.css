@@ -1,0 +1,41 @@
+.testimonials-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testimonials-content header p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.testimonials-content footer{
+    margin-top: 8px;
+}
+
+.testimonials-content footer .profile{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.testimonials-content footer .profile img{
+    width: 86px;
+    height: 86px;
+}
+
+.testimonials-content footer .profile .rating{
+    line-height: 32px;
+    align-self: center;
+}
+
+.testimonials-content footer .profile .rating h4{
+    font-size: 20px;
+    font-weight: var(--title-font-weight);
+    margin: 0;
+}
+
+.testimonials-content footer .profile .rating .star{
+    font-size: 32px;
+    color: var(--secondary-color);
+}
