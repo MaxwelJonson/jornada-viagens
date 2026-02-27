@@ -39,3 +39,12 @@
     font-size: 32px;
     color: var(--secondary-color);
 }
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .testimonials-content{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+}
