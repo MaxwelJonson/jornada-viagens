@@ -1,7 +1,16 @@
-.hero-img.header{
+.hero .hero-img,
+.bottom-hero .hero-img{
     height: 400px;
     width: 100%;
+}
+
+.hero .hero-img{
     background: url(../img/hero-mobile.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.bottom-hero .hero-img{
+    background: url(../img/hero-footer-mobile.jpg) no-repeat center;
     background-size: cover;  
 }
 
@@ -14,16 +23,9 @@
     text-align: center;
 }
 
-.hero-img.footer{
-    height: 400px;
-    width: 100%;
-    background: url(../img/hero-footer-mobile.jpg) no-repeat center;
-    background-size: cover;  
-}
-
 /* MEDIDAS DA IMAGEM PARA TABLETS */
 @media screen and (min-width: 768px) {
-    .hero-img.header{
+    .hero .hero-img{
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat center;
         background-size: cover;
@@ -34,7 +36,7 @@
         font-size: 32px;
     }
 
-    .hero-img.footer{
+    .bottom-hero .hero-img{
         background: url(../img/hero-footer-tablet.jpg) no-repeat center;
         background-size: cover;
     }
@@ -42,14 +44,14 @@
 
 /* MEDIDAS DA IMAGEM PARA DESKTOPS */
 @media screen and (min-width: 1440px) {
-    .hero-img.header{
+    .hero .hero-img{
         background: url(../img/hero-desktop.jpg) no-repeat center;
         background-size: cover;
     }
     .hero h2{
         padding: 104px 120px;
     }
-    .hero-img.footer{
+    .bottom-hero .hero-img{
         height: 600px;
         background: url(../img/hero-footer-desktop.jpg) no-repeat center;
         background-size: cover;
@@ -57,8 +59,11 @@
 }
 
 /* MEDIDAS DA IMAGEM PARA DESKTOPS MAIORES */
-@media screen and (min-width: 1940px) {
+@media screen and (min-width: 1920px) {
     .hero h2{
         padding: 104px 160px;
+    }
+    .bottom-hero .hero-img{
+        height: 700px;
     }
 }
