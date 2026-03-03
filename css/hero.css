@@ -10,7 +10,7 @@
 }
 
 .bottom-hero .hero-img{
-    background: url(../img/hero-footer-mobile.jpg) no-repeat center;
+    background: url(../img/hero-bottom-mobile.jpg) no-repeat center;
     background-size: cover;  
 }
 
@@ -37,7 +37,7 @@
     }
 
     .bottom-hero .hero-img{
-        background: url(../img/hero-footer-tablet.jpg) no-repeat center;
+        background: url(../img/hero-bottom-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 }
@@ -53,7 +53,7 @@
     }
     .bottom-hero .hero-img{
         height: 600px;
-        background: url(../img/hero-footer-desktop.jpg) no-repeat center;
+        background: url(../img/hero-bottom-desktop.jpg) no-repeat center;
         background-size: cover;
     }
 }
