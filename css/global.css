@@ -39,7 +39,7 @@ body{
     color: var(--text-primary-color);
 }
 
-section{
+.section{
     width: 312px;
     margin: 0 auto 88px;
 }
@@ -85,6 +85,10 @@ section.title-card{
     line-height: 1.5;
 }
 
+a{
+    text-decoration: none;
+}
+
 .button{
     display: inline-block;
     width: 280px;
@@ -92,7 +96,6 @@ section.title-card{
     line-height: 64px;
     background-color: var(--secondary-color);
     border-radius: 8px;
-    text-decoration: none;
     color: var(--text-secondary-color);
     font-weight: var(--title-font-weight);
     font-size: 20px;
@@ -101,7 +104,7 @@ section.title-card{
 
 /* TABLETS */
 @media screen and (min-width: 768px) {
-    section{
+    .section{
         width: 648px;
     }
     .section-title{
@@ -114,7 +117,7 @@ section.title-card{
 
 /* DESKTOPS */
 @media screen and (min-width: 1024px) {
-    section{
+    .section{
         width: 900px;
     }
     .button:hover{
@@ -124,7 +127,7 @@ section.title-card{
 
 /* DESKTOPS MAIORES */
 @media screen and (min-width: 1440px) {
-    section{
+    .section{
         width: 1200px;
     }
     .section-title hr{
@@ -133,7 +136,7 @@ section.title-card{
 }
 
 @media screen and (min-width: 1920px) {
-    section{
+    .section{
         width: 1500px;
     }
 }
