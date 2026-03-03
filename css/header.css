@@ -40,7 +40,6 @@
 }
 
 .list-links-menu a{
-    text-decoration: none;
     color: var(--text-secondary-color);
     font-weight: var(--menu-font-weight);
     font-size: 24px;
