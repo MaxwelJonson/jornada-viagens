@@ -29,6 +29,11 @@
     margin: 16px 0 32px;
 }
 
+.bottom-hero.packages .hero-img{
+    background: url(../img/hero-packages-bottom-mobile.jpg) no-repeat center;
+    background-size: cover;  
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
     .hero .hero-img.bg-packages-hero{
@@ -38,6 +43,11 @@
     
     .hero .hero-content .content-text{
         font-size: 32px;
+    }
+
+    .bottom-hero.packages .hero-img{
+        background: url(../img/hero-packages-bottom-tablet.jpg) no-repeat center;
+        background-size: cover;
     }
 }
 
@@ -49,5 +59,11 @@
 
     .hero .hero-img.bg-packages-hero .hero-content{
         width: 579px;
+    }
+
+    .bottom-hero.packages .hero-img{
+        height: 600px;
+        background: url(../img/hero-packages-bottom-desktop.jpg) no-repeat center;
+        background-size: cover;
     }
 }
