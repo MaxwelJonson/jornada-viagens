@@ -1,0 +1,17 @@
+.payments .content.packages .text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payments .content.packages .content-title{
+    margin: 0;
+}
+
+.payments .content.packages h3{
+    font-size: 40px;
+}
+
+.payments .content.packages .button{
+    width: 100%;
+}
