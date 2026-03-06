@@ -19,9 +19,27 @@
 @media screen and (min-width: 768px) {
     .tokyo-travel .arrival{
         flex-direction: row;
+        justify-content: space-between;
     }
-    
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .tokyo-travel .arrival .arrival-image{
+        width: 588px;
+        background: url(../img/blog/arrival-image-desk.jpg) center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .tokyo-travel .arrival .arrival-content{
-        width: 312px;
+        width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .tokyo-travel .arrival .arrival-content{
+        width: 780px;
     }
 }
