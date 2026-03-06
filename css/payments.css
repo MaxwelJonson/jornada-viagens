@@ -25,6 +25,48 @@
     background-size: cover;
 }
 
+/* PACOTES VIAGENS */
+.payments.packages .content .text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payments.packages .content .content-title{
+    margin: 0;
+}
+
+.payments.packages .content h3{
+    font-size: 40px;
+}
+
+.payments.packages .content .button{
+    width: 100%;
+}
+
+.payments.packages .content .image-content .image{
+    height: 254px;
+}
+
+.payments.packages .content .image-content .image.large{
+    height: 182px;
+}
+
+.payments.packages .content .image-content .first{
+    background: url(../img/img-pacote-viagens/payments-packages-first-image-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.payments.packages .content .image-content .second{
+    background: url(../img/img-pacote-viagens/payments-packages-second-image-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.payments.packages .content .image-content .third{
+    background: url(../img/img-pacote-viagens/payments-packages-third-image-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
     .payments .content .image-content .first{
@@ -41,12 +83,33 @@
         background: url(../img/payments-third-image-tablet-desk.jpg) no-repeat center;
         background-size: cover;
     }
+
+    /* PACOTES VIAGENS */
+    .payments.packages .content .image-content .first{
+        background: url(../img/img-pacote-viagens/payments-packages-first-image-tablet.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .payments.packages .content .image-content .second{
+        background: url(../img/img-pacote-viagens/payments-packages-second-image-tablet.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .payments.packages .content .image-content .third{
+        background: url(../img/img-pacote-viagens/payments-packages-third-image-tablet.jpg) no-repeat center;
+        background-size: cover;
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
     .payments .content .image-content{
         height: 560px;
+    }
+
+    /* PACOTES VIAGENS */
+    .payments.packages .content .image-content{
+        height: 460px;
     }
 }
 
