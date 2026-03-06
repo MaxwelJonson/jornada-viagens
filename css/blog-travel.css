@@ -1,0 +1,11 @@
+.tokyo-travel .arrival{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tokyo-travel .arrival .arrival-image{
+    height: 360px;
+    background: url(../img/blog/arrival-image.jpg) center;
+    background-size: cover;
+}
