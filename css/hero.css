@@ -5,12 +5,12 @@
 }
 
 .hero .hero-img{
-    background: url(../img/hero-mobile.jpg) no-repeat center;
+    background: url(../img/homepage/hero-mobile.jpg) no-repeat center;
     background-size: cover; 
 }
 
 .bottom-hero .hero-img{
-    background: url(../img/hero-bottom-mobile.jpg) no-repeat center;
+    background: url(../img/homepage/hero-bottom-mobile.jpg) no-repeat center;
     background-size: cover;  
 }
 
@@ -25,7 +25,7 @@
 
 /* HERO - PACOTES VIAGENS */
 .hero.packages .hero-img{
-    background: url(../img/img-pacote-viagens/hero-packages.jpg) 67%;
+    background: url(../img/pacote-viagens/hero-packages.jpg) 67%;
     background-size: cover;
     width: 100%;
     height: 460px;
@@ -52,7 +52,7 @@
 }
 
 .bottom-hero.packages .hero-img{
-    background: url(../img/img-pacote-viagens/hero-packages-bottom-mobile.jpg) no-repeat center;
+    background: url(../img/pacote-viagens/hero-packages-bottom-mobile.jpg) no-repeat center;
     background-size: cover;  
 }
 
@@ -60,7 +60,7 @@
 @media screen and (min-width: 768px) {
     .hero .hero-img{
         height: 620px;
-        background: url(../img/hero-tablet.jpg) no-repeat center;
+        background: url(../img/homepage/hero-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -70,7 +70,7 @@
     }
 
     .bottom-hero .hero-img{
-        background: url(../img/hero-bottom-tablet.jpg) no-repeat center;
+        background: url(../img/homepage/hero-bottom-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -85,7 +85,7 @@
     }
 
     .bottom-hero.packages .hero-img{
-        background: url(../img/img-pacote-viagens/hero-packages-bottom-tablet.jpg) no-repeat center;
+        background: url(../img/pacote-viagens/hero-packages-bottom-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 }
@@ -93,7 +93,7 @@
 /* MEDIDAS DA IMAGEM PARA DESKTOPS */
 @media screen and (min-width: 1440px) {
     .hero .hero-img{
-        background: url(../img/hero-desktop.jpg) no-repeat center;
+        background: url(../img/homepage/hero-desktop.jpg) no-repeat center;
         background-size: cover;
     }
     .hero h2{
@@ -101,7 +101,7 @@
     }
     .bottom-hero .hero-img{
         height: 600px;
-        background: url(../img/hero-bottom-desktop.jpg) no-repeat center;
+        background: url(../img/homepage/hero-bottom-desktop.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -116,7 +116,7 @@
 
     .bottom-hero.packages .hero-img{
         height: 600px;
-        background: url(../img/img-pacote-viagens/hero-packages-bottom-desktop.jpg) no-repeat center;
+        background: url(../img/pacote-viagens/hero-packages-bottom-desktop.jpg) no-repeat center;
         background-size: cover;
     }
 }

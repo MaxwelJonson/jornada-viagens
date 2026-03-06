@@ -21,21 +21,21 @@
 }
 
 .pacotes-nacionais .icon{
-    background: url(../img/icon-pacotes-nacionais.png) no-repeat center;
+    background: url(../img/homepage/icon-pacotes-nacionais.png) no-repeat center;
     margin: 24px auto;
 }
 
 .pacotes-internacionais .icon{
-    background: url(../img/icon-pacotes-internacionais.png) no-repeat center;
+    background: url(../img/homepage/icon-pacotes-internacionais.png) no-repeat center;
     margin: 24px auto;
 }
 
 .transfer .icon{
-    background: url(../img/icon-transfer.png) no-repeat center;
+    background: url(../img/homepage/icon-transfer.png) no-repeat center;
 }
 
 .seguro-viagem .icon{
-    background: url(../img/icon-seguro-viagem.png) no-repeat center;
+    background: url(../img/homepage/icon-seguro-viagem.png) no-repeat center;
 }
 
 .category-cards .card h3{
