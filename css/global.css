@@ -89,6 +89,10 @@ a{
     text-decoration: none;
 }
 
+.active{
+    text-decoration: underline;
+}
+
 .button{
     display: inline-block;
     width: 280px;

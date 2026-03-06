@@ -19,22 +19,22 @@
 }
 
 .offer-cards .card.japao{
-    background: url(../img/bg-card-japao.jpg) no-repeat center;
+    background: url(../img/homepage/bg-card-japao.jpg) no-repeat center;
     background-size: cover;
 }
 
 .offer-cards .card.san-adreas{
-    background: url(../img/bg-card-san-andreas.jpg) no-repeat center;
+    background: url(../img/homepage/bg-card-san-andreas.jpg) no-repeat center;
     background-size: cover;
 }
 
 .offer-cards .card.paraiba{
-    background: url(../img/bg-card-paraiba.jpg) no-repeat center;
+    background: url(../img/homepage/bg-card-paraiba.jpg) no-repeat center;
     background-size: cover;
 }
 
 .offer-cards .card.manaus{
-    background: url(../img/bg-card-manaus.jpg) no-repeat center;
+    background: url(../img/homepage/bg-card-manaus.jpg) no-repeat center;
     background-size: cover;
 }
 
