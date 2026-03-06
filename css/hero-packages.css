@@ -3,7 +3,7 @@
 }
 
 .hero .hero-img.bg-packages-hero{
-    background: url(../img/hero-packages.jpg) 67%;
+    background: url(../img/img-pacote-viagens/hero-packages.jpg) 67%;
     background-size: cover;
     width: 100%;
     height: 460px;
@@ -30,7 +30,7 @@
 }
 
 .bottom-hero.packages .hero-img{
-    background: url(../img/hero-packages-bottom-mobile.jpg) no-repeat center;
+    background: url(../img/img-pacote-viagens/hero-packages-bottom-mobile.jpg) no-repeat center;
     background-size: cover;  
 }
 
@@ -46,7 +46,7 @@
     }
 
     .bottom-hero.packages .hero-img{
-        background: url(../img/hero-packages-bottom-tablet.jpg) no-repeat center;
+        background: url(../img/img-pacote-viagens/hero-packages-bottom-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 }
@@ -63,7 +63,7 @@
 
     .bottom-hero.packages .hero-img{
         height: 600px;
-        background: url(../img/hero-packages-bottom-desktop.jpg) no-repeat center;
+        background: url(../img/img-pacote-viagens/hero-packages-bottom-desktop.jpg) no-repeat center;
         background-size: cover;
     }
 }

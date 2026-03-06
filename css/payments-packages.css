@@ -25,34 +25,34 @@
 }
 
 .payments .content.packages .image-content .first{
-    background: url(../img/payments-packages-first-image-mobile.jpg) no-repeat center;
+    background: url(../img/img-pacote-viagens/payments-packages-first-image-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
 .payments .content.packages .image-content .second{
-    background: url(../img/payments-packages-second-image-mobile.jpg) no-repeat center;
+    background: url(../img/img-pacote-viagens/payments-packages-second-image-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
 .payments .content.packages .image-content .third{
-    background: url(../img/payments-packages-third-image-mobile.jpg) no-repeat center;
+    background: url(../img/img-pacote-viagens/payments-packages-third-image-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
     .payments .content.packages .image-content .first{
-        background: url(../img/payments-packages-first-image-tablet.jpg) no-repeat center;
+        background: url(../img/img-pacote-viagens/payments-packages-first-image-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 
     .payments .content.packages .image-content .second{
-        background: url(../img/payments-packages-second-image-tablet.jpg) no-repeat center;
+        background: url(../img/img-pacote-viagens/payments-packages-second-image-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 
     .payments .content.packages .image-content .third{
-        background: url(../img/payments-packages-third-image-tablet.jpg) no-repeat center;
+        background: url(../img/img-pacote-viagens/payments-packages-third-image-tablet.jpg) no-repeat center;
         background-size: cover;
     }
 }
