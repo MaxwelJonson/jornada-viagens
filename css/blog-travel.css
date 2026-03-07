@@ -1,0 +1,73 @@
+.tokyo-travel .content-travel{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.tokyo-travel .arrival,
+.tokyo-travel .accommodation{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tokyo-travel .arrival .arrival-content{
+    width: 312px;
+}
+
+.tokyo-travel .arrival .arrival-image{
+    width: 312px;
+    height: 360px;
+    background: url(../img/blog/arrival-image.jpg) center;
+    background-size: cover;
+}
+
+.tokyo-travel .accommodation .accommodation-image{
+    width: 100%;
+    height: 300px;
+    background: url(../img/blog/view-town-mobile.jpg) center;
+    background-size: cover;
+}
+
+.tokyo-travel .accommodation .image-description .description{
+    margin-top: 8px;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .tokyo-travel .arrival{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tokyo-travel .accommodation .accommodation-image{
+        background: url(../img/blog/view-town-tablet.jpg) center;
+        background-size: cover;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .tokyo-travel .arrival .arrival-image{
+        width: 588px;
+        background: url(../img/blog/arrival-image-desk.jpg) center;
+        background-size: cover;
+    }
+
+    .tokyo-travel .accommodation .accommodation-image{
+        background: url(../img/blog/view-town-desk.jpg) center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .tokyo-travel .arrival .arrival-content{
+        width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .tokyo-travel .arrival .arrival-content{
+        width: 780px;
+    }
+}
