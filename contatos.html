@@ -60,17 +60,19 @@
             Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!
         </p>
         <form action="#" method="get">
-            <input type="text" name="userName" id="name" placeholder="Seu nome">
-            <br>
-            <input type="number" name="userPhone" id="phone" placeholder="Telefone">
-            <br>
-            <input type="email" name="userEmail" id="email" placeholder="Email">
-            <br>
+            <input type="text" name="userName" id="name" placeholder="Seu nome" required>
+            
+            <input type="number" name="userPhone" id="phone" placeholder="Telefone - XX000000000" pattern="[0-9]{11}" required>
+            
+            <input type="email" name="userEmail" id="email" placeholder="Email" required>
+            
             <label for="topic">Assunto</label>
             <br>
             <textarea name="userTopic" id="topic"></textarea>
 
-            <button class="button" type="submit">Enviar!</button>
+            <div class="area-button">
+                <button class="button" type="submit">Enviar!</button>
+            </div>
         </form>
     </section>
 </body>
