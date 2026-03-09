@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml"> 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contatos da Jornada</title>
+</head>
+<body>
+    <header class="main-header">
+        <a class="logo" href="index.html" title="Voltar para a página inicial">
+            <img class="img-mobile" src="img/homepage/logo-bussola-jornada-branca.png" alt="Logotipo da Jornada Viagens na cor branca">
+            <img class="img-desktop" src="img/homepage/logo-bussola-texto-jornada-branca.png" alt="Logotipo com nome da Jornada Viagens na cor branca">
+        </a>
+        <div class="navigation-menu">
+            <label for="menu">
+                <img src="img/homepage/menu.png" alt="Menu">
+            </label>
+            <input type="checkbox" id="menu" hidden>
+            <nav>
+                <ul class="list-links-menu">
+                    <li>
+                        <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="pacotes.html" target="_blank" title="Acessar Pacotes de viagem">Pacotes de viagem</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" target="_blank" title="Acessar Contatos" class="active">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero contacts">
+        <div class="hero-img">
+            <div class="hero-content">
+                <div class="section-title">
+                    <h1>Entre em contato!</h1>
+                    <hr>
+                </div>
+                <p class="content-text">
+                    Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="form section">
+        <div class="section-title">
+            <h2>Preencha o formulário:</h2>
+            <hr>
+        </div>
+        <p class="content-text">
+            Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!
+        </p>
+        <form action="enviado.html" method="get">
+            <input type="text" name="userName" id="name" placeholder="Seu nome" required>
+            
+            <input type="tel" name="userPhone" id="phone" placeholder="Telefone - XX000000000" pattern="[0-9]{11}" required>
+            
+            <input type="email" name="userEmail" id="email" placeholder="Email" required>
+            
+            <label for="topic">Assunto</label>
+            <br>
+            <textarea name="userTopic" id="topic"></textarea>
+
+            <div class="area-button">
+                <button class="button" type="submit">Enviar!</button>
+            </div>
+        </form>
+    </section>
+    <section class="bottom-hero contacts">
+        <div class="hero-img"></div>
+    </section>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <img class="logo-footer" src="img/homepage/logo-jornada-viagens-footer-branca.png" alt="Logo da Jornada Viagens completa na cor branca">
+            <p>
+                Horário de atendimento: 08h - 20h (Segunda a Sábado)
+            </p>
+            <p>
+                Desenvolvido por Alura. Projeto fictício sem fins comerciais.
+            </p>
+        </div>
+        <div class="footer-social">
+            <p>
+                Acesse nossas redes:
+            </p>
+            <div class="social-icons">
+                <a href="#" target="_blank" title="Entre em contato pelo nosso Whatsapp">
+                    <img src="img/homepage/icon-whatsapp.png" alt="Ícone do Whatsapp">
+                </a>
+                <a href="#" target="_blank" title="Acesse nosso Instagram">
+                    <img src="img/homepage/icon-instragam.png" alt="Ícone do Instagram">
+                </a>
+                <a href="#" target="_blank" title="Acesse nosso Twitter">
+                    <img src="img/homepage/icon-twitter.png" alt="Ícone do Twitter">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

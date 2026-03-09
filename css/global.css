@@ -19,6 +19,9 @@
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
 
+    --form-border-color: #D9D9D9;
+    --form-text-color: #8C8C8C;
+
     /* VARIAVEIS DE FONTES */
     --title-font-weight: 700;
     --menu-font-weight: 500;
@@ -100,6 +103,7 @@ a{
     height: 64px;
     line-height: 64px;
     background-color: var(--secondary-color);
+    border: none;
     border-radius: 8px;
     color: var(--text-secondary-color);
     font-weight: var(--title-font-weight);
