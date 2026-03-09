@@ -103,13 +103,15 @@
 
     /* HERO - GENERICO COM TEXTO */
     .hero.packages .hero-img,
-    .hero.blog .hero-img{
+    .hero.blog .hero-img,
+    .hero.contacts .hero-img{
         height: 620px;
-        padding: 120px 80px;
+        padding: 158px 94px; 
     }
     
     .hero.packages .hero-content .content-text,
-    .hero.blog .hero-content .content-text{
+    .hero.blog .hero-content .content-text,
+    .hero.contacts .hero-content .content-text{
         font-size: 32px;
     }
 
@@ -122,6 +124,12 @@
     /* HERO - PACOTES VIAGENS */
     .bottom-hero.packages .hero-img{
         background: url(../img/pacote-viagens/hero-packages-bottom-tablet.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    /* CONTATOS */
+    .hero.contacts .hero-img{
+        background: url(../img/contatos/hero-contacts-tablet.jpg) center;
         background-size: cover;
     }
 }
@@ -143,12 +151,14 @@
 
     /* HERO - GENERICO COM TEXTO */
     .hero.packages .hero-img,
-    .hero.blog .hero-img{
+    .hero.blog .hero-img,
+    .hero.contacts .hero-img{
         padding-top: 155px;
     } 
 
     .hero.packages .hero-img .hero-content,
-    .hero.blog .hero-img .hero-content{
+    .hero.blog .hero-img .hero-content,
+    .hero.contacts .hero-img .hero-content{
         width: 579px;
     }
 
@@ -156,6 +166,12 @@
     .bottom-hero.packages .hero-img{
         height: 600px;
         background: url(../img/pacote-viagens/hero-packages-bottom-desktop.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    /* CONTATOS */
+    .hero.contacts .hero-img{
+        background: url(../img/contatos/hero-contacts-desk.jpg) center;
         background-size: cover;
     }
 }
