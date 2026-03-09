@@ -82,6 +82,11 @@
     background-size: cover;
 }
 
+.bottom-hero.contacts .hero-img{
+    background: url(../img/contatos/hero-bottom-contacts-mobile.jpg) center;
+    background-size: cover;
+}
+
 
 /* MEDIDAS DA IMAGEM PARA TABLETS */
 @media screen and (min-width: 768px) {
@@ -132,6 +137,11 @@
         background: url(../img/contatos/hero-contacts-tablet.jpg) center;
         background-size: cover;
     }
+
+    .bottom-hero.contacts .hero-img{
+        background: url(../img/contatos/hero-bottom-contacts-tablet.jpg) center;
+        background-size: cover;
+    }
 }
 
 /* MEDIDAS DA IMAGEM PARA DESKTOPS */
@@ -172,6 +182,11 @@
     /* CONTATOS */
     .hero.contacts .hero-img{
         background: url(../img/contatos/hero-contacts-desk.jpg) center;
+        background-size: cover;
+    }
+
+    .bottom-hero.contacts .hero-img{
+        background: url(../img/contatos/hero-bottom-contacts-desk.jpg) center;
         background-size: cover;
     }
 }
